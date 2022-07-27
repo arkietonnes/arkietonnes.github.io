@@ -6,10 +6,11 @@
   gap: 10px;
   grid-template-areas: "header header"
                        "nav nav" 
-                       "left right"
+                       "Q1 Q2"
+                       "Q3 Q4"
                        "footer footer";
-  grid-template-rows: 150px 200px 600px 200px;
-  grid-template-columns: 200px 400px; 
+  grid-template-rows: 250px 150px 300px 300px 150px;
+  grid-template-columns: 400px 400px; 
 }
 
 h1, h2 {
@@ -27,14 +28,24 @@ nav {
   grid-area:nav;
 }
 
-.left {
+.Q1 {
   background-color: dodgerblue;
-  grid-area:left;
+  grid-area:Q1;
 }
 
-.right {
+.Q2 {
   background-color: beige;
-  grid-area:right;
+  grid-area:Q2;
+}
+
+.Q3 {
+  background-color: beige;
+  grid-area:Q3;
+}
+
+.Q4 {
+  background-color: beige;
+  grid-area:Q4;
 }
 
 footer {
